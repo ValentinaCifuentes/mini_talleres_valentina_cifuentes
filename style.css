@@ -1,0 +1,212 @@
+body{
+    font-family:'Open Sans', sans-serif;
+    margin: 0;
+}
+.barra-header{
+    height: 20px;
+    margin-top: 0;
+    background-color: #54565A;
+    border: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 130px;
+    padding-left: 10%;
+    padding-top:2%;
+    padding-bottom: 1%;
+    gap: 13%;
+    background-color: #fff;
+}
+.Logotipo{
+    max-width: 100%;
+}
+.Logotipo img{
+    max-width: 100%;
+}
+.Botones-secciones{
+    display: flex;
+    flex-direction: row;
+    gap: 25%;
+}
+.Botones-categorias{
+    display: flex;
+    gap: 12%;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.Botones-categorias h3{
+    color: #54565A;
+    font-weight: bold;
+}
+.Redes-sociales{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 13%;
+}
+.Redes-sociales a img{
+    max-width: 100%;
+}
+
+main {
+    padding-left: 9%;
+    padding-right: 10%;
+    margin-bottom: 10%;
+}
+h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #fd7e14;
+    font-family: 'ahkio', sans-serif;
+}
+.content {
+    display: flex;
+    padding: 0;
+    gap: 2%;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.filtro-categoria {
+    display: flex;
+    flex-direction: column;
+    width: 14%;
+    height: 100%;
+    padding: 50px;
+    border: 1px solid #fd7e14;
+    border-radius: 32px;
+    margin-right: 0px;;
+}
+.filtro-categoria h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color:#fd7e14;
+}
+label{
+    color: #707070;
+    font-size: 18px;
+}
+.botones-filtro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.filtrar {
+    margin-top: 40px;
+    background-color: #fd7e14;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    max-width: 100%;
+    border: none;
+    cursor: pointer;
+}
+.limpiar{
+    margin-top: 10px;
+    background-color: #fd7d1400;
+    color:#707070;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+    max-width: 100%;
+    border: none;
+    cursor: pointer;
+}
+.seccion-ofertas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-content: center;
+    gap: 7%;
+    width: 100%;
+    height: 100%;
+}
+
+.Oferta {
+    border: 1px solid #fd7e14;
+    border-radius: 32px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.Oferta img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.Oferta h3{
+    color: #707070;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.descripcion{
+    font-family: 'Open Sans', sans-serif;
+    color: #707070;
+    font-weight: 500;
+    font-size: 16px;
+}
+.precio-antes {
+    color: #707070;
+    font-size: 16px;
+    font-weight: 700;
+}
+s{
+    text-decoration: line-through;
+}
+
+.precio-ahora {
+    font-size: 56px;
+    color: #fd7e14;
+    font-weight: 700;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.vigencia{
+    font-size: 12px;
+    color: #fd7e14;
+    font-weight: 500;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    background-color: #e2e2e2;
+    padding: 20px 7%;
+}
+
+.info h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    color:#212529;
+    margin-bottom: 10px;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+
+}
+.info li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #212529;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 7%;
+}
+.barra-footer{
+    display: flex;
+    background-color: #fd7e14;
+    justify-content: center;
+    padding: 1%;
+}
