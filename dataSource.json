@@ -1,0 +1,14 @@
+{
+    "Alumno": [
+        {"id": 1, "nombre": "Juan", "nivel": 5, "notas": [6, 7, 5, 6, 7, 6]},
+        {"id": 2, "nombre": "María", "nivel": 7, "notas": [7, 6, 6, 5, 7, 6]},
+        {"id": 3, "nombre": "Carlos", "nivel": 4, "notas": [6, 6, 7, 6, 5, 6]},
+        {"id": 4, "nombre": "Ana", "nivel": 8, "notas": [7, 6, 5, 7, 6, 6]},
+        {"id": 5, "nombre": "Luis", "nivel": 6, "notas": [6, 7, 6, 6, 5, 6]},
+        {"id": 6, "nombre": "Sofía", "nivel": 9, "notas": [7, 6, 6, 6, 7, 5]},
+        {"id": 7, "nombre": "Diego", "nivel": 3, "notas": [6, 5, 7, 6, 6, 6]},
+        {"id": 8, "nombre": "Laura", "nivel": 10, "notas": [7, 6, 6, 5, 6, 7]},
+        {"id": 9, "nombre": "Pedro", "nivel": 2, "notas": [6, 6, 7, 5, 6, 6]},
+        {"id": 10, "nombre": "Clara", "nivel": 1, "notas": [6, 5, 6, 7, 6, 6]}
+    ]
+}
